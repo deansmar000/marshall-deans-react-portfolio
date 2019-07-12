@@ -17,7 +17,7 @@ export default class App extends Component {
       <div className="app">
         <Router>
           <div>
-            <h1>Marshall Deans WebBrowser</h1>
+            <h1>Marshall Deans Portfolio Website</h1>
             <div>{moment().format("MMMM Do YYYY, h:mm:ss a")}</div>
             <div className="navigation-wrapper">
               <NavigationContainer />
