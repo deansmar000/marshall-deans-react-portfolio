@@ -1,41 +1,7 @@
-html {
-  font-size: 62.5%; // 1rem is 10px
-}
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  font-family: "montserrat";
-}
-
-body {
-  overflow-x: hidden;
-  font-weight: normal;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.app {
-  margin-top: 2rem;
-  display: grid;
-  justify-items: center;
-}
-
-.navigation-wrapper a {
-  padding: 5px;
-  font-size: 2em;
-  font-weight: 700;
-  color: slategray;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.navigation-wrapper a:hover {
-  color: black;
-}
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./base.scss";
+@import "./button.scss";
+@import "./navigation.scss";
+@import "./portfolio.scss";
+@import "./auth.scss";
