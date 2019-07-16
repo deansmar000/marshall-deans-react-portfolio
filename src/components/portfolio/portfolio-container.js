@@ -26,9 +26,8 @@ export default class PortfolioContainer extends Component {
 
   getPortfolioItems() {
     axios
-      .get("https://marshalldeans.devcamp.space/portfolio/portfolio_items")
+      .get("https://jordan.devcamp.space/portfolio/portfolio_items")
       .then(response => {
-        console.log(response);
         this.setState({
           data: response.data.portfolio_items
         });
@@ -38,12 +37,7 @@ export default class PortfolioContainer extends Component {
       });
   }
 
-  PortfolioItems() {
-    // Data that we'll need:
-    // background image: thumb_image_url
-    // logo
-    // description: description
-    // id: id
+  portfolioItems() {
     return this.state.data.map(item => {
       return <PortfolioItem key={item.id} item={item} />;
     });
@@ -70,7 +64,7 @@ export default class PortfolioContainer extends Component {
           Enterprise
         </button>
 
-        {this.PortfolioItems()}
+        {this.portfolioItems()}
       </div>
     );
   }

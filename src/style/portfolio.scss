@@ -1,11 +1,9 @@
 .portfolio-items-wrapper {
-  background-color: #f0f8ff;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
   .portfolio-item-wrapper {
     position: relative;
-    margin: 15px;
 
     .portfolio-img-background {
       background-size: cover;

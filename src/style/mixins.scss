@@ -3,10 +3,10 @@
   height: 42px;
   font-size: 1em;
   font-weight: 500;
-  color: white;
-  background-color: $teal;
   border: 1px solid transparent;
   transition: all 0.5s ease-in-out;
+  background-color: $teal;
+  color: white;
 
   &:active,
   &:focus {
