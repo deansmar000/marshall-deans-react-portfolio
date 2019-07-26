@@ -4,6 +4,17 @@
   align-items: center;
   position: relative;
 
+  .admin-blog-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      margin-left: 15px;
+      cursor: pointer;
+    }
+  }
+
   .new-blog-link {
     position: fixed;
     right: 0;
@@ -46,7 +57,7 @@
       img {
         margin: 15px 0px;
         width: 100%;
-        height: auto;
+        height: 350px;
         border-radius: 5px;
         object-fit: cover;
       }

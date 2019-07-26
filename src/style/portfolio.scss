@@ -4,6 +4,9 @@
 
   .portfolio-item-wrapper {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .portfolio-img-background {
       background-size: cover;
@@ -14,6 +17,7 @@
     }
 
     .img-text-wrapper {
+      width: 35%;
       position: absolute;
       top: 0;
       display: flex;
@@ -26,8 +30,12 @@
       padding-right: 100px;
 
       .subtitle {
+        width: 300px;
         transition: 1s ease-in-out;
         color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
 
