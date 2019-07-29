@@ -1,5 +1,5 @@
 import React from "react";
-import profilePicture from "../../../static/assets/images/bio/MyMagazine.jpg";
+import profilePicture from "../../../static/assets/images/bio/BottegaPhoto.png";
 
 export default function() {
   return (
@@ -8,7 +8,7 @@ export default function() {
         className="left-column"
         style={{
           background: "url(" + profilePicture + ")no-repeat",
-          backgroundSize: "cover",
+          backgroundSize: "fit",
           backgroundPosition: "center"
         }}
       />

@@ -8,6 +8,15 @@
     margin-bottom: 0px;
   }
 
+  select {
+    margin-bottom: 0px;
+    border: 1px solid $teal;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
   .image-uploaders {
     @include base-grid();
     grid-template-columns: 200px;

@@ -124,7 +124,6 @@ export default class BlogForm extends Component {
         });
 
         if (this.props.editMode) {
-          // Update blog detail
           this.props.handleUpdateFormSubmission(response.data.portfolio_blog);
         } else {
           this.props.handleSuccessfullFormSubmission(
@@ -158,11 +157,10 @@ export default class BlogForm extends Component {
           />
 
           <select
-            type="text"
-            onChange={this.handleChange}
             name="blog_status"
-            placeholder="Blog status"
+            onChange={this.handleChange}
             value={this.state.blog_status}
+            className="select-element"
           >
             <option value="draft">Draft</option>
             <option value="published">Published</option>
