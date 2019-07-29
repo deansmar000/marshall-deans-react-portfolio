@@ -11,6 +11,13 @@
     flex-direction: column;
     padding: 100px;
 
+    p {
+      font-family: sans-serif;
+      color: grey;
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
     .contact-bullet-points {
       display: grid;
       grid-template-columns: 1fr;
@@ -26,6 +33,8 @@
         }
 
         .text {
+          color: grey;
+          letter-spacing: 1px;
           font-size: 1.5em;
           font-weight: 900;
           margin-left: 21px;
