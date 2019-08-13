@@ -1,13 +1,47 @@
-.homepage-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
+.homepage-container {
+  .hero-section {
+    height: 400px;
+    padding: 100px;
+    background-image: url("../../static/assets/images/other/RedBlueFlowerPetals.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  .filter-links {
-    display: flex;
-    justify-content: space-around;
+    .top-header {
+      height: 80px;
+      width: 300px;
+      color: ghostwhite;
+      background-color: $gun-metal;
+      border: 3px solid $vivid-gerulean;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-    .btn {
-      width: 100%;
+    .bottom-header {
+      height: 80px;
+      width: 200px;
+      margin-top: 20px;
+      color: ghostwhite;
+      background-color: $gun-metal;
+      border: 3px solid $vivid-gerulean;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .homepage-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .filter-links {
+      display: flex;
+      justify-content: space-around;
+
+      .btn {
+        width: 100%;
+      }
     }
   }
 }
