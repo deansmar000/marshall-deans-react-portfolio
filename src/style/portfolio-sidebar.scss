@@ -12,7 +12,7 @@
       align-items: center;
 
       .title {
-        color: $offwhite;
+        color: $off-white;
         font-size: 1.5em;
       }
 
@@ -23,12 +23,12 @@
 
         .action-icon {
           cursor: pointer;
-          color: $offwhite;
+          color: $off-white;
           font-size: 1.5em;
           transition: 0.5s ease-in-out;
 
           &:hover {
-            color: $warning;
+            color: $ruby-red;
           }
         }
       }

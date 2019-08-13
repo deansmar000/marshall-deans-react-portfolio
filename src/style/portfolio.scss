@@ -1,7 +1,7 @@
 .portfolio-items-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color: $charcoal;
+  background-color: $onyx;
 
   .portfolio-item-wrapper {
     position: relative;
@@ -44,7 +44,7 @@
     }
 
     .img-text-wrapper:hover .subtitle {
-      color: $teal;
+      color: $vivid-gerulean;
       font-weight: 400;
     }
 

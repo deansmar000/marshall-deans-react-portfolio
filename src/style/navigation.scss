@@ -4,7 +4,7 @@
   padding: 30px;
 
   .right-side {
-    color: grey;
+    color: $paynes-gray;
     letter-spacing: 1px;
     font-family: sans-serif;
     font-weight: 900;
@@ -12,11 +12,11 @@
     a {
       margin-left: 15px;
       cursor: pointer;
-      color: $teal;
+      color: $vivid-gerulean;
       transition: 0.5s ease-in-out;
 
       &:hover {
-        color: $dark-teal;
+        color: $egyption-blue;
       }
     }
   }
@@ -36,7 +36,7 @@
     letter-spacing: 1px;
 
     a {
-      color: $grey;
+      color: $paynes-gray;
       text-decoration: none;
       &:hover {
         color: black;

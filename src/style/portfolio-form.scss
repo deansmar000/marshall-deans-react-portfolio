@@ -10,7 +10,7 @@
 
   select {
     outline: none;
-    border: 1px solid $teal;
+    border: 1px solid $vivid-gerulean;
 
     &:focus {
       outline: none;
@@ -34,7 +34,7 @@
         justify-content: center;
         a {
           font-weight: 900;
-          color: $warning;
+          color: $cardinal-red;
           cursor: pointer;
         }
       }
